@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f10;
+  color: #eee;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #6c5ce7, #341f97);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  background-color: #fff;
+  color: #111;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+section {
+  padding: 3rem 2rem;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #a29bfe;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: #1e1e2f;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 0.8rem;
+  color: #74b9ff;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  font-size: 0.9rem;
+}
+.todo-section {
+  padding: 3rem 1rem;
+  background-color: #181818;
+  text-align: center;
+}
+
+.todo-section h2 {
+  color: #00cec9;
+  margin-bottom: 1rem;
+}
+
+.todo-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #2d2d2d;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.todo-box input {
+  padding: 0.8rem;
+  width: 70%;
+  border-radius: 6px;
+  border: none;
+  margin-right: 1rem;
+}
+
+.todo-box button {
+  padding: 0.8rem 1.2rem;
+  background-color: #00cec9;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.todo-box ul {
+  list-style: none;
+  margin-top: 1.5rem;
+  padding: 0;
+  color: #fff;
+}
+
+.todo-box li {
+  margin: 0.6rem 0;
+  padding: 0.6rem 1rem;
+  background: #3d3d3d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.todo-box li span {
+  cursor: pointer;
+  color: #ff7675;
+}
